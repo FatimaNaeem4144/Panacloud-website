@@ -1,0 +1,141 @@
+.header{
+    height: 95px;
+    color: red;
+    background: white;
+    position: sticky;
+    top:0;
+    z-index: 0px;
+}
+
+.top-details{
+    width: 900px;
+    padding: 0px;
+    display: inline-block;
+    float: right;
+    margin: 0px;
+    height: 30px;
+}
+.top-details p{
+     float: right;
+    margin: 5px 40px;
+    padding-right: 40px;
+    color: white;
+}
+.top-details p>img{
+    padding-top: 5px;
+}
+.top-details button{
+     float: right;
+    margin: 5px 30px;
+    padding-right: 0px 20px;
+    background-color:	#8DC73F;
+    border-radius: 2px 2px;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+   
+}
+.top-social{
+     display: inline-block;
+    width: 500px;
+     height: 30px;
+    float: left;
+}
+
+.menu{
+    height: 60px;
+    display: inline-block;
+    background: white;
+    padding: 0px;
+}
+.menu>ul{
+    float: right;
+}
+.top-header{
+    height: 30px;
+    background-color: black;
+}
+.menu>img{
+    height: 50px;
+    float: left;
+    margin: 0px 100px 0px 50px;
+}
+.menu>ul>li{
+    padding-right: 30px;
+    padding-bottom: 20px;
+    list-style: none;
+     display: inline-block!important;
+}
+
+.menu>ul>li>a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #FEBD19;
+    border-width: 8px;
+}
+.menu>ul>li>a{
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.header-2{
+    border: 1px solid black;
+    height: 400px;
+    background-color:#8DC73F;
+    margin: 0px;
+}
+
+.head-content{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px;
+    
+}
+
+.head-content h1{
+    font-size: 100px;
+     padding: 0px 0px;
+     margin-bottom: 0px;
+}
+
+.head-content >p{
+    width: 800px;
+    padding-top: 0px;
+   margin-left: auto;
+    margin-right: auto;
+}
+.head-content >p button{
+    width: 200px;
+    height: 40px;
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #FEBD19;
+    border-top: none;
+    border-left: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

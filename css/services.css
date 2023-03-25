@@ -1,0 +1,40 @@
+#services{
+    height: 350px;
+    padding: 20px;
+    background-color: ghostwhite; 
+}
+.services-1{
+}
+.services-1>p{
+    color: slategrey;
+     text-align: center;
+}
+.services-1>h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+}
+.services-1>h1>span{
+    color:#678E19 !important;
+}
+.services-2{
+    height: 200px;
+    padding: 10px 0px 0px 50px;
+    margin: 0px;
+}
+.services-2-a{
+    width: 200px;
+    height: 100px;
+    padding: 50px 10px;
+    background-size: 230px 200px;
+    background-image: url(../images-1/services/card_1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px 40px;
+    
+}
+.services-2-a >h3{
+    text-align: center;
+    
+}

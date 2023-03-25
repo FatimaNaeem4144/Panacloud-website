@@ -1,0 +1,46 @@
+#people{
+    height: 430px;
+    padding: 20px;
+    background-color:	#F2F2F2;
+}
+.people-1{
+    text-align: center;
+}
+.people-1>h1{
+     margin: 0px;
+    color: black;
+}
+.people-1 >p {
+    text-align: center;
+    color: slategrey;
+}
+.people-1>h1 span{
+color: 	#678E19;
+}
+.people-2>table{
+    color: black;
+    width: 1000px;
+    margin: 0px auto;
+}
+.people-2>table>tr{
+    
+    border: 2px solid black;
+}
+.people-2>table>tr td img{
+    width:200px;
+    height: 100px;
+}
+.people-2 table tr td:nth-child(even)  {
+    width: 200px;
+        margin: 0px;
+    text-align: justify;
+}
+.people-2 table tr td:nth-child(even)::first-line{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.people-2 table tr td:nth-child(odd) {
+    width: 100px;
+    padding-left: 30px;
+    margin: 0px;    
+}

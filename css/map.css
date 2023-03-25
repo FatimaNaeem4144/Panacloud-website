@@ -1,0 +1,43 @@
+.a-map{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    padding: 40px 20px;
+}
+.a-map-1>h1{
+    text-align: center;
+    margin: 0px;
+    color: black;
+}
+.a-map-1>h1 span{
+    color: 	#678E19;
+}
+.a-map-1>p{
+    text-align: center;
+    margin: 0px;
+    color: slategrey;
+}
+.a-map-2{
+    height: 260px;
+    overflow: hidden;
+    padding: 0px 55px;
+}
+.a-map-1-b{
+    height: 50px;
+    padding-top: 10px ;
+    font-size: 25px;
+    
+}
+.a-map-1-b p img{
+    display: inline-block;
+      margin: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+    padding-left: 40px;
+    vertical-align: text-bottom;    
+}
+.a-map-1-b p{
+    margin: 0px;
+    text-align: center;
+    
+}

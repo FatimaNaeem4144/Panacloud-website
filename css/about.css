@@ -1,0 +1,39 @@
+#about{
+    height: 530px;
+    background-image: url(../images-1/about/about_us.png);
+    background-repeat: no-repeat;
+    background-size: 900px 500px;
+    background-position: right;
+    background-color: #F2F2F2;
+}
+.about-1{
+    width: 650px;
+    display: inline-block;
+    height: 300px;
+    padding-left: 100px;
+}
+.about-1>p{
+    padding-top: 5px;
+    color:  black;
+    text-align: justify;
+}
+.about-1>h2{
+    color:  black;
+    text-align: right;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-1>h2>span {
+    color: #678E19 !important;
+    padding-left: 30px;
+}
+.about-1 button{
+    margin: 0px 60px;
+    padding-right: 0px 20px;
+    background-color: #FEBD19;
+    border-radius: 2px 2px;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+   
+}

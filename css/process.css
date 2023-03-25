@@ -1,0 +1,52 @@
+#process{
+    height: 400px;
+    padding: 20px;
+    background-color: white; 
+}
+.adv-1 h1{
+    color: black;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+}
+.adv-1 h1 span{
+    color: 	#678E19 !important;
+    padding-left: 20px;
+    letter-spacing: 5px;
+}
+.adv-1 p{
+    text-align: center;
+    color: 	darkslategrey;
+    margin: 0px;
+    
+}
+.adv-2{
+     height: 256px;
+    margin: 0px;
+}
+.adv-2-a{
+    height: 230px;
+    width: 130px;
+    padding: 20px 0px 0px 70px;
+    display: inline-block;
+    
+    
+}
+.adv-2-a img h5{
+    margin: 0px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.adv-2-a img{
+    margin: 0px;
+    width: 130px;
+}
+.adv-2-a p{
+    margin: 0px;
+    text-align: justify;
+    color:slategrey;
+}

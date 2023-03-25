@@ -1,0 +1,45 @@
+
+.b-contact{
+    height: 250px;
+    padding: 20px;
+    background-color:#8DC73F;
+    padding: 40px 20px;
+}
+.b-contact>.contact-1{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    text-align: left;
+    padding: 15px;
+        margin-left: 30px;
+}
+
+.b-contact>.contact-1>p{
+    color:  white;
+    text-align: center justify;
+}
+.b-contact>.contact-2{
+    display: inline-block;
+    float: right;
+    width: 300px;
+    text-align: left;
+}
+.b-contact>.contact-2>ul{
+    padding: 15px;
+}
+
+.b-contact>.contact-2>ul>li{
+    list-style: none;
+   color:  white;
+    text-decoration: underline;
+}
+.b-contact>.contact-2>ul>li:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+   color:  white;
+    text-decoration: none;
+}
+.b-contact>.contact-2>ul>li:hover{
+    border: none !important;
+}
