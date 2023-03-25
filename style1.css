@@ -1,0 +1,82 @@
+*{
+    margin: 0% !important;
+    padding: 0% !important;   
+}
+.myclass{
+    padding-left: 1px!important;
+    padding-right: 1px!important;
+    font-size: 15px !important;
+}
+a img{
+    width: 170px;
+    height: 70px;
+}
+#navbaaar{
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+        color: rgb(171, 32, 32);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+h6{
+  text-align: end;
+}
+.p-5{
+    position: relative;    
+}
+.text{
+    position: absolute;
+    top: 1600px;
+    right: 320px;
+    color: rgb(2, 2, 3);
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.btn-warning{
+    position: relative;
+    color: black;
+    background-color: yellow;
+}
+.id h6 button{
+    border-radius: 0;
+}
+.fs{
+    font-size: 10px !important;
+}
+.img{
+    
+    border: 2px;
+
+    height: 15% !important;
+    width: 15% !important;
+}
+.font{
+    font-size: 15px !important; 
+}
+.back{
+    background-color: rgb(185, 185, 185);
+}
+.fsixe{
+    font-size: 10px ;
+}
+.MARGIN{
+    margin-left: 32px !important;
+}
+.contain{
+    background-color: rgb(248, 246, 246);
+}
+.my{
+    padding-right: 75px !important;
+}
+.bck{
+    background-color: rgb(95, 143, 23);
+}
+.color{
+    color: rgb(95, 143, 23 );
+}
