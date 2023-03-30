@@ -31,15 +31,15 @@ nav ul li {
     line-height: 80px;
 }
 
-nav ul li a {
+.anker {
     color: black;
     font-weight: 600;
     padding: 25px;
     font-size: 15px;
 }
 
-a.active,
-a:hover {
+.anker.active,
+.anker:hover {
     text-decoration: underline;
     text-decoration-thickness: 08px;
     text-decoration-color: rgb(122, 174, 26);
@@ -125,7 +125,6 @@ a:hover {
     padding: 9px 22px 9px 22px;
     background-color: rgb(235, 165, 35);
     border: none;
-    border-radius: 30px;
 }
 
 .btn:hover {
@@ -133,7 +132,6 @@ a:hover {
     padding-right: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
-    border-radius: 30px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -143,11 +141,12 @@ a:hover {
     padding: 30px 0 50px 0;
 }
 span {
-    color: rgb(1, 92, 1);
+    color: rgb(24, 151, 24);
 }
 
 .adv {
     padding: 30px 0 0 500px;
+    letter-spacing: 1px;
 }
 
 .lorem {
@@ -163,9 +162,9 @@ span {
     padding-left: 70px;
 }
 .idea:hover{
-    height: 180px;
-    width: 235px;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: all .5s;
 }
 .portion1 {
     display: flex;
@@ -199,6 +198,7 @@ section div p {
     position: absolute;
 }
 .abouth1{
+    letter-spacing: 1px;
     position: absolute;
     padding: 40px 0 0 590px;
     font-size: 30px;
@@ -225,26 +225,24 @@ section div p {
 .aboutbtn{
     position: absolute;
     color: black;
-    background-color: rgb(224, 137, 32);
+    background-color: rgb(237, 148, 38);
     border: none;
     padding: 7px 14px 7px 14px;
     font-size: large;
-    border-radius: 10px;
     margin: 420px 0 0 100px;
-}
-.aboutbtn:hover{
+} 
+ .aboutbtn:hover{
     padding: 10px 20px 10px 20px;
     cursor: pointer;
-}
+    background-color: rgb(88, 203, 70);
+    position: absolute;
+} 
 /* ********************OUR SERVICES************************ */
-.ser{
-    margin: 0;
-    padding: 0;
-}
-.services{
+.servicesh1{
     position: absolute;
     padding: 540px 0 0 550px;
     font-size: 30px;
+    letter-spacing: 1px;
 }
 .serp{
     position: absolute;
@@ -252,12 +250,773 @@ section div p {
     padding: 590px 300px 0 300px;
     color: grey;
 }
-.card1, .card2, .card3, .card4{
-    padding-top: 100px;
-    padding-left: 170px;
+.servicesdiv{
     display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-    width: 130px;
-    position: relative; 
+}
+.card1{
+    padding: 650px 0 0 100px;
+    position: absolute;
+}
+.card2{
+    padding: 650px 0 0 400px;
+    position: absolute;
+    
+}
+.card3{
+    padding: 650px 0 0 700px;
+    position: absolute;
+}
+.card4{
+    padding: 650px 0 0 1000px;
+    position: absolute;
+}
+.servh1{
+    position: absolute;
+    padding: 750px 0 0 170px;
+}
+.servh2{
+    position: absolute;
+    padding: 750px 0 0 380px;
+}
+.servh3{
+    position: absolute;
+    padding: 750px 0 0 620px;
+}
+.servh4{
+    position: absolute;
+    padding: 750px 0 0 850px;
+}
+.servp1{
+    position: absolute;
+    padding: 790px 1000px 00 120px;
+}
+.servp2{
+    position: absolute;
+    padding: 790px 700px 00 340px;
+}
+ .servp3{
+    position: absolute;
+    padding: 790px 400px 00 555px;
+}
+.servp4{
+    position: absolute;
+    padding: 790px 100px 00 780px;
+} 
+/* **************OUR PORTFOLIO****************** */
+.ourportfolio{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    margin: 900px 0 0 0;
+    position: absolute;
+}
+.ourportfolio h1{
+    color: #fffcfcc7;
+    position: absolute;
+    padding: 40px 0 0 550px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.ourportfolio p{
+    position: absolute;
+    text-align: center;
+    padding: 80px 300px 0 300px;
+    color: grey;
+}
+.pa1{
+    position: absolute;
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 300px;
+    color: rgb(208, 198, 198);
+}
+.pa1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(208, 135, 18);
+    font-size: large;
+    margin: 140px 0 0 290px;
+    transition: ease .5s;
+}
+.pa1:active{
+    color: rgb(208, 135, 18);
+    
+}
+.pa2{
+    position: absolute;
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 430px;
+    color: rgb(208, 198, 198);
+}
+.pa2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(208, 135, 18);
+    font-size: large;
+    margin: 140px 0 0 410px;
+    transition: ease .5s;
+}
+.pa2:active{
+    color: rgb(208, 135, 18);
+    
+}
+.pa3{
+    position: absolute;
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 590px;
+    color: rgb(208, 198, 198);
+}
+.pa3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(208, 135, 18);
+    font-size: large;
+    margin: 140px 0 0 580px;
+    transition: ease .5s;
+}
+.pa3:active{
+    color: rgb(208, 135, 18);
+    
+}
+.pa4{
+    position: absolute;
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 700px;
+    color: rgb(208, 135, 18);
+}
+.pa4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(208, 135, 18);
+    font-size: large;
+    margin: 140px 0 0 690px;
+    transition: ease .5s;
+}
+.pa4:active{
+    color: rgb(208, 135, 18);
+    
+}
+.pa5{
+    position: absolute;
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 780px;
+    color: rgb(208, 198, 198);
+}
+.pa5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(208, 135, 18);
+    font-size: large;
+    margin: 140px 0 0 770px;
+    transition: ease .5s;
+}
+.pa5:active{
+    color: rgb(208, 135, 18);
+    
+}
+.pa6{
+    position: absolute; 
+    border: none;
+    background-color: black;
+    margin: 140px 0 0 900px;
+    color: rgb(208, 198, 198);
+}
+.pa6:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
+    margin: 140px 0 0 880px;
+    transition: ease .5s;
+    color: rgb(208, 135, 18);
+}
+.pa6:active{
+    color: rgb(208, 135, 18);
+    
+}
+.portimg{
+    display: flex;
+    padding: 200px 0 0 230px;
+}
+.img1{
+    height: 170px;
+    width: 170px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.img1:hover{
+    transform: scale(1.05);
+
+}
+.portimg1{
+    display: flex;
+    padding: 0px 0 0 230px;
+}
+/* ********************OUR PROCESS********************** */
+.ourprocess{
+    width: 100%;
+    height: 500px;
+    margin: 1400px 0 0 0;
+}
+.processimg{
+    display: flex;
+}
+.ourprocess h1{
+    position: absolute;
+    padding: 140px 0 0 550px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.ourprocess p{
+    position: absolute;
+    text-align: center;
+    padding: 180px 300px 0 300px;
+    color: grey;
+}
+.processimg1{
+    padding: 220px 0 0 50px;
+}
+.processimg1:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    cursor: pointer;
+}
+.proh1{
+    padding: 20px 0 0 65px;
+}
+.prop1{
+    padding: 15px  1100px 0 20px !important;
+    font-size: 14px;
+} 
+.processimg2{
+    padding: 220px 0 0 80px;
+}
+.processimg2:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    cursor: pointer;
+}
+.proh2{
+    padding: 20px 0 0 80px;
+}
+.prop2{
+    padding: 15px 900px 0 40px !important;
+    font-size: 14px;
+} 
+.processimg3{
+    padding: 220px 0 0 80px;
+}
+.processimg3:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    cursor: pointer;
+}
+.proh3{
+    padding: 20px 0 0 105px;
+}
+.prop3{
+    padding: 15px 700px 0 40px !important;
+    font-size: 14px;
+} 
+.processimg4{
+    padding: 220px 0 0 80px;
+}
+.processimg4:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    cursor: pointer;
+}
+.proh4{
+    padding: 20px 0 0 80px;
+}
+.prop4{
+    padding: 15px 470px 0 30px !important;
+    font-size: 14px;
+} 
+.processimg5{
+    padding: 220px 0 0 80px;
+}
+.processimg5:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all .5s;
+}
+.proh5{
+    padding: 20px 0 0 100px;
+}
+.prop5{
+    padding: 15px 250px 0 40px !important;
+    font-size: 14px;
+} 
+.processimg6{
+    padding: 220px 0 0 90px;
+}
+.processimg6:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    cursor: pointer;
+}
+.proh6{
+    padding: 20px 0 0 130px;
+}
+.prop6{
+    padding: 15px 25px 0 45px !important;
+    font-size: 14px;
+} 
+/* *********************PEOPLE ABOUT US**************************** */
+.peopleaboutus{
+    width: 100%;
+    height: 500px;
+    margin: 10px 0 0 0;
+    background-color: rgba(200, 203, 220, 0.392);
+}
+.peopleh1{
+    position: absolute;
+    padding: 10px 0 0 550px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.peoplep1{
+    position: absolute;
+    text-align: center;
+    padding: 59px 300px 0 300px;
+    color: grey;
+}
+.peopleimg1{
+    position: absolute;
+    padding: 0px 0 0 100px;
+}
+.peoh1{
+    padding: 40px 0 0 270px;
+    position: absolute;
+}
+.peop1{
+    position: absolute;
+    padding: 70px 40px 0 270px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+.peopleimg2{
+    position: absolute;
+    padding: 10px 0 0 0px;
+}
+.peoh2{
+    padding: 50px 0 0 170px;
+    position: absolute;
+}
+.peop2{
+    position: absolute;
+    padding: 80px 480px 0 170px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+.peopleimg3{
+    position: absolute;
+    padding: 130px 0 0 700px;
+}
+.peoh3{
+    padding: 160px 0 0 880px;
+    position: absolute;
+}
+.peop3{
+    position: absolute;
+    padding: 190px 220px 0 880px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+.peopleimg4{
+    position: absolute;
+    padding: 310px 0 0 700px;
+}
+.peoh4{
+    padding: 350px 0 0 880px;
+    position: absolute;
+}
+.peop4{
+    position: absolute;
+    padding: 380px 200px 0 880px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+.peoplediv{
+    width: 550px;
+    height: 350px;
+    border-right-style: solid;
+    border-right-color: rgb(168, 165, 165);
+    border-right-width: 2px;
+    position: absolute;
+    margin: 130px 0 0 150px;
+
+}
+.peoplediv1{
+    width: 900px;
+    height: 0px;
+    border-top-style: solid;
+    border-top-color: rgb(168, 165, 165);
+    border-top-width: 2px;
+    position: absolute;
+    margin: 300px 0 0 250px;
+}
+/* *********************OUR SKILLS**************************** */
+.skillsh{
+    position: absolute;
+    padding: 20px 0 0 600px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.skillsp{
+    position: absolute;
+    text-align: center;
+    padding: 65px 200px 0 300px;
+    color: grey;
+}
+.ourskills{
+    position: relative;
+    display: inline-block;
+}
+/* ******************* FOR CONTAINER 1****************** */
+.container1{
+    height: 10vh;
+    font-weight: 100vw;
+    display: inline-block;
+    padding: 10px 0 0 150px;
+    background-color: rgb(255, 255, 255);
+}
+.bar1{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: -3px -3px 7px rgb(237, 238, 175), 3px 3px 5px rgba(94,104,121,0.945);
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bar1::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:inset -3px -3px 7px rgb(232, 238, 175),inset 3px 3px 5px rgba(94,104,121,0.945);
+}
+svg{
+    fill: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.svg1{
+    position: absolute;
+    transform: scale(.93);
+    transform-origin: center;
+    stroke: rgb(255, 101, 45);
+    stroke-width: 29px;
+    stroke-dasharray: 629px;
+    stroke-dashoffset: 629px;
+    animation: progressbar1 1s ease-in-out forwards;
+}
+.skillsh1{
+    position: absolute;
+    left: 54%;
+    top: 38%;
+    font-size: 50px;
+    transform: translate(-50%, -0%);
+    color: rgb(255, 101, 45);
+}
+@keyframes progressbar1{
+    0% {
+        stroke-dashoffset: 629px;
+    }
+    100%{
+        stroke-dashoffset: calc(629px - (629px*45)/100);
+    }
+}
+/* ******************* FOR CONTAINER 2****************** */
+.container2{
+    display: inline-block;
+    padding: 0 0 0 100px;
+    background-color: rgb(255, 255, 255);
+}
+.bar2{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: -3px -3px 7px rgb(237, 238, 175), 3px 3px 5px rgba(94,104,121,0.945);
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bar2::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:inset -3px -3px 7px rgb(232, 238, 175),inset 3px 3px 5px rgba(94,104,121,0.945);
+}
+.svg2{
+    position: absolute;
+    transform: scale(.93);
+    transform-origin: center;
+    stroke: rgb(134, 47, 47) ;
+    stroke-width: 29px;
+    stroke-dasharray: 629px;
+    stroke-dashoffset: 629px;
+    animation: progressbar2 1s ease-in-out forwards;
+}
+.skillsh2{
+    position: absolute;
+    left: 54%;
+    top: 38%;
+    font-size: 50px;
+    transform: translate(-50%, -0%);
+    color: rgb(135, 37, 37) ;
+}
+@keyframes progressbar2{
+    0% {
+        stroke-dashoffset: 629px;
+    }
+    100%{
+        stroke-dashoffset: calc(629px - (629px*60)/100);
+    }
+}
+.progh2{
+    padding: 0 0 0 500px;
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+}
+/* ******************* FOR CONTAINER 3****************** */
+.container3{
+    display: inline-block;
+    padding: 120px 0 0 100px;
+    background-color: rgb(255, 255, 255);
+}
+.bar3{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: -3px -3px 7px rgb(237, 238, 175), 3px 3px 5px rgba(94,104,121,0.945);
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bar3::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:inset -3px -3px 7px rgb(232, 238, 175),inset 3px 3px 5px rgba(94,104,121,0.945);
+}
+.svg3{
+    position: absolute;
+    transform: scale(.93);
+    transform-origin: center;
+    stroke: greenyellow;
+    stroke-width: 29px;
+    stroke-dasharray: 629px;
+    stroke-dashoffset: 629px;
+    animation: progressbar3 1s ease-in-out forwards;
+}
+.skillsh3{
+    position: absolute;
+    left: 54%;
+    top: 38%;
+    font-size: 50px;
+    transform: translate(-50%, -0%);
+    color: greenyellow;
+}
+@keyframes progressbar3{
+    0% {
+        stroke-dashoffset: 629px;
+    }
+    100%{
+        stroke-dashoffset: calc(629px - (629px*75)/100);
+    }
+}
+.progh3{
+    padding: 0px 0 0px 810px;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+}
+   /* ******************* FOR CONTAINER 4****************** */
+.container4{
+    display: inline-block;
+    padding: 0px 0 0 100px;
+    background-color: rgb(255, 255, 255);
+}
+.bar4{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: -3px -3px 7px rgb(237, 238, 175), 3px 3px 5px rgba(94,104,121,0.945);
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bar4::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:inset -3px -3px 7px rgb(232, 238, 175),inset 3px 3px 5px rgba(94,104,121,0.945);
+}
+.svg4{
+    position: absolute;
+    transform: scale(.93);
+    transform-origin: center;
+    stroke: black;
+    stroke-width: 29px;
+    stroke-dasharray: 629px;
+    stroke-dashoffset: 629px;
+    animation: progressbar4 1s ease-in-out forwards;
+}
+.skillsh4{
+    position: absolute;
+    left: 54%;
+    top: 38%;
+    font-size: 50px;
+    transform: translate(-50%, -0%);
+    color: black;
+}
+@keyframes progressbar4{
+    0% {
+        stroke-dashoffset: 629px;
+    }
+    100%{
+        stroke-dashoffset: calc(629px - (629px*90)/100);
+    }
+}
+.progh4{
+    padding: 0px 0 0px 1100px;
+    font-size: 20px;
+    display: inline-block;
+}
+/* ******************* NEW PROJECT****************** */
+.startproject{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(122, 174, 26);
+    position: absolute;
+}
+.starth1{
+    padding: 44px 0 0 330px;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.formname{
+    margin: 150px 0 0 250px;
+    border-radius: 3px;
+    height: 34px;
+    border: none;
+    width: 200px;
+}
+.formemail{
+    margin: 150px 0 0 50px;
+    border-radius: 3px;
+    height: 34px;
+    border: none;
+    width: 200px;
+}
+.formno{
+    margin: 150px 0 0 50px;
+    border-radius: 3px;
+    height: 34px;
+    border: none;
+    width: 200px;
+}
+.formbtn{
+    margin: 150px 0 0 100px;
+    position: absolute;
+    border-radius: 5px;
+    height: 34px;
+    width: 150px;
+    color: black;
+    font-weight: 700;
+    background-color: rgb(160, 238, 15);
+}
+.formbtn:hover{
+    cursor: pointer;
+    margin: 145px 0 0 90px;
+    height: 40px;
+    transition: all .5s;
+    width: 170px;
+    text-decoration: underline;
+    background-color: rgb(170, 251, 19);
+    border-color: black;
+}
+.formp{
+    padding: 45px 300px 0 325px;
+    color: white;
+    font-size: 15px;
+}
+/* *********************OUR CONTACTS********************  */
+.ourcontacts{
+    width: 100%;
+    height: 700px;
+    margin: 100px 0 0 0;
+}
+.contactsh{
+    position: absolute;
+    padding: 230px 0 0 550px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.contactsp{
+    position: absolute;
+    text-align: center;
+    padding: 275px 340px 0 340px;
+    color: grey;
+}
+.locationp{
+    padding: 325px 280px 0 300px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.icon1{
+    display: inline-block;
+    padding: 10px 0 0 350px;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon2{
+    display: inline-block;
+    padding: 10px 0 0 100px;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon3{
+    display: inline-block;
+    padding: 10px 0 0 100px;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
