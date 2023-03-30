@@ -9,11 +9,47 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* ********************START OF WEB********************* */
+.webnavbar{
+    height: 40px;
+    width: 100%;
+    /* position: relative; */
+    background-color: black;
+}
+.navbaricons{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    padding: 10px 0 0 15px;
+}
+.navbarphone{
+    display: flex;
+    position: absolute;
+    padding: 10px 0 0 930px;
+    gap: 10px;
+    color: white;
+}
+.navbarbtn{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    float: right;
+    /* line-height: 20px; */
+    cursor: pointer;
+    background-color: rgb(122, 174, 26);
+    border: none;
+    margin-top: 8px;
+    margin-right: 15px;
+    width: 120px;
+    height: 25px;
+}
+.navbarbtn:hover{
+    font-size: 14px;
+}
 /* ********************NAVBAR********************* */
 nav {
     background: #fffcfc;
-    height: 80px;
+    height: 10px;
     width: 100%;
 }
 
@@ -654,7 +690,6 @@ section div p {
     border-right-width: 2px;
     position: absolute;
     margin: 130px 0 0 150px;
-
 }
 .peoplediv1{
     width: 900px;
@@ -724,7 +759,9 @@ svg{
     stroke-width: 29px;
     stroke-dasharray: 629px;
     stroke-dashoffset: 629px;
-    animation: progressbar1 1s ease-in-out forwards;
+    animation: progressbar1 4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .skillsh1{
     position: absolute;
@@ -776,7 +813,9 @@ svg{
     stroke-width: 29px;
     stroke-dasharray: 629px;
     stroke-dashoffset: 629px;
-    animation: progressbar2 1s ease-in-out forwards;
+    animation: progressbar2 4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .skillsh2{
     position: absolute;
@@ -834,7 +873,9 @@ svg{
     stroke-width: 29px;
     stroke-dasharray: 629px;
     stroke-dashoffset: 629px;
-    animation: progressbar3 1s ease-in-out forwards;
+    animation: progressbar3 4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .skillsh3{
     position: absolute;
@@ -892,7 +933,9 @@ svg{
     stroke-width: 29px;
     stroke-dasharray: 629px;
     stroke-dashoffset: 629px;
-    animation: progressbar4 1s ease-in-out forwards;
+    animation: progressbar4 4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .skillsh4{
     position: absolute;
@@ -920,7 +963,6 @@ svg{
     height: 300px;
     width: 100%;
     background-color: rgb(122, 174, 26);
-    position: absolute;
 }
 .starth1{
     padding: 44px 0 0 330px;
@@ -955,6 +997,7 @@ svg{
     position: absolute;
     border-radius: 5px;
     height: 34px;
+    border: none;
     width: 150px;
     color: black;
     font-weight: 700;
@@ -968,7 +1011,6 @@ svg{
     width: 170px;
     text-decoration: underline;
     background-color: rgb(170, 251, 19);
-    border-color: black;
 }
 .formp{
     padding: 45px 300px 0 325px;
@@ -976,25 +1018,25 @@ svg{
     font-size: 15px;
 }
 /* *********************OUR CONTACTS********************  */
-.ourcontacts{
+ .ourcontacts{
     width: 100%;
-    height: 700px;
-    margin: 100px 0 0 0;
+    height: 550px;
 }
 .contactsh{
     position: absolute;
-    padding: 230px 0 0 550px;
+    padding: 30px 0 0 550px;
     font-size: 30px;
     letter-spacing: 1px;
 }
 .contactsp{
     position: absolute;
     text-align: center;
-    padding: 275px 340px 0 340px;
+    padding: 75px 340px 0 340px;
     color: grey;
 }
 .locationp{
-    padding: 325px 280px 0 300px;
+    color: black;
+    padding: 125px 280px 0 300px;
     font-size: 17px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
@@ -1019,4 +1061,85 @@ svg{
     font-size: 17px;
     font-weight: 550;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+iframe{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+} 
+/* ******************FOOTER*******************  */
+.footer{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(122, 174, 26);
+   
+}
+.footerimg{
+    height: 120px;
+    padding: 50px 0 0 50px;
+}
+.footerp{
+    color: white;
+    text-align: left;
+    padding: 10px 990px 0 67px;
+    font-size: 14px;
+}
+.footp{
+    color: white;
+    text-align: left;
+    padding: 30px 500px 0 67px;
+    font-size: 15px;
+}
+.footservices{
+    position: absolute;
+    padding: 54px 0 0 440px;
+    color: white;
+    font-size: 18px;  
+}
+.footservlink li{
+    text-decoration: underline;
+    font-size: 13px;
+    padding-top: 8px ;
+}
+.footlorem{
+    padding-top: 17px !important;
+} 
+.footlinks{
+    position: absolute;
+    padding: 54px 0 0  690px;
+    color: white;
+    font-size: 18px; 
+}
+.footeruseful li{
+    text-decoration: underline;
+    font-size: 13px;
+    padding-top: 8px ;
+}
+ .li1{
+    padding-top: 17px !important;
+} 
+.footcontacts{
+    position: absolute;
+    padding: 54px 0 0  990px;
+    color: white;
+    font-size: 18px; 
+}
+.licont li{
+    font-size: 13px;
+    padding-top: 8px ;
+}
+ .footicon1{
+    padding-top: 17px !important;
+} 
+.followus{
+    position: absolute;
+    padding: 190px 0 0  990px;
+    color: white;
+    font-size: 18px; 
+}
+.followicons{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
 }
